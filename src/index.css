@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Grenze|Montserrat&display=swap');
+
 body {
-  margin: 0;
-  padding: 0;
-  background-color: whitesmoke;
+  font-family: 'Grenze', serif;
 }

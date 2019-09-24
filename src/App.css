@@ -1,0 +1,39 @@
+.mynav {
+  box-shadow: 0px 3px 14px -4px rgba(0, 0, 0, 0.7);
+  background-color: rgba(220, 20, 60, 0.8);
+  color: white;
+}
+
+textarea {
+  outline: none !important;
+  padding: 12px 20px;
+  margin: 20px auto;
+}
+
+textarea:focus {
+  box-shadow: 0 0 5px rgba(220, 20, 60, 0.8) !important;
+  border: 1px solid rgba(220, 20, 60, 0.8) !important;
+}
+
+select {
+  outline: none !important;
+  padding: 12px 20px;
+  margin: 20px auto;
+}
+
+select:focus {
+  box-shadow: 0 0 5px rgba(220, 20, 60, 0.8) !important;
+  border: 1px solid rgba(220, 20, 60, 0.8) !important;
+}
+
+option:checked {
+  background-color: rgba(220, 20, 60, 0.8) !important;
+  color: white;
+}
+
+button {
+  background: rgba(220, 20, 60, 0.8);
+  color: white;
+  border-radius: 25px;
+  padding: 1% 3%;
+}

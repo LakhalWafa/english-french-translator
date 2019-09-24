@@ -1,17 +1,11 @@
 import React from 'react';
 
-export default function Navbar() {
+const Navbar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-dark bg-dark">
-        <div
-          className="navbar-brand"
-          style={{ color: 'white', cursor: 'pointer' }}
-        >
-          {' '}
-          English and French Translation App
-        </div>
-      </nav>
-    </div>
+    <nav className="mynav p-2">
+      <h1 className="text-center">Translator</h1>
+    </nav>
   );
-}
+};
+
+export default Navbar;
